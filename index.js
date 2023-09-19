@@ -1,10 +1,23 @@
 //soal 1
+const getDay = require("./soal-1");
+
+const wetherDate1 = "2023-09-17";
+const wetherDate2 = "2023-09-19";
+console.log(wetherDate1);
+console.log(wetherDate2);
 
 //soal 2
+const gcd = require("./soal-2");
+console.log(gcd(30, 24));
 
 //soal 3
+const lcm = require("./soal-3");
+console.log(lcm(4, 8));
 
 //soal 4
+const commonChar = require("./soal-4")
+const kalimat = "Purwadhika University";
+console.log(commonChar(kalimat));
 
 //soal 5
 const {sort, sorted} = require("./soal-5")
@@ -67,7 +80,3 @@ console.log(hariBerlalu())
 const tanggalLahir = "2000-1-1"
 const result12 = calculateAge(tanggalLahir)
 console.log(result12)
-const getDay = require("./soal-1");
-
-const tanggal = new Date("2023-09-17");
-console.log(getDay(tanggal));

@@ -10,3 +10,5 @@ const getDay = (date) => {
 
 const tanggal = new Date("2023-09-10");
 console.log(getDay(tanggal));
+
+module.export = getDay;

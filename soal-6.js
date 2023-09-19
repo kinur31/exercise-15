@@ -1,9 +1,9 @@
 function getMinimumDate(dateArray) {
     if (dateArray.length === 0) {
-        return null; 
+        return null; // Return null for an empty array
     }
 
-    let minDate = dateArray[0]; 
+    let minDate = dateArray[0]; // Initialize minDate with the first date
 
     for (let i = 1; i < dateArray.length; i++) {
         if (dateArray[i] < minDate) {
@@ -14,4 +14,4 @@ function getMinimumDate(dateArray) {
     return minDate;
 }
 
-module.exports = getMinimumDate
+// Example array of dates

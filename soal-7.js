@@ -1,4 +1,4 @@
-function twoDimArray(matrix) {
+function sumOfMatrixElements(matrix) {
     let sum = 0;
     
     for (let i = 0; i < matrix.length; i++) {
@@ -10,4 +10,3 @@ function twoDimArray(matrix) {
     return sum;
 }
 
-module.exports = twoDimArray

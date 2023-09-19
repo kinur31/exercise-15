@@ -12,8 +12,6 @@ function sort(arr) {
     return arr.join("");
 }
 
-let alpha = "qwertyuiopasdfghjklzxcvbnm"
-console.log(sort(alpha));
 
 // with sort
 

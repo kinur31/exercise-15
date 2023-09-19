@@ -3,6 +3,9 @@ const {sort, sorted} = require("./soal-5")
 let alphabet = "qwertyuiopasdfghjklzxcvbnm"
 console.log(sorted(alphabet));
 
+let alpha = "qwertyuiopasdfghjklzxcvbnm"
+console.log(sort(alpha));
+
 // nomor 6
 const getMinimumDate = require("./soal-6")
 

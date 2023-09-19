@@ -60,8 +60,9 @@ const CommonPrefix = require("./soal-8")
 const arrayOfStrings = ["flower", "flour", "flourish"];
 const longCommonPrefix = CommonPrefix(arrayOfStrings);
 console.log(longCommonPrefix); 
-const {copyFirstHalf, dayInMonth, hariBerlalu, calculateAge} = require ("./soal9-12")
 
+
+const {copyFirstHalf, dayInMonth, hariBerlalu, calculateAge} = require ("./soal9-12")
 //soal 9
 const number = [1,2,3,4,5]
 const result9 = copyFirstHalf(number)

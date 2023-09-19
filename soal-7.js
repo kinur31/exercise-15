@@ -10,3 +10,4 @@ function sumOfMatrixElements(matrix) {
     return sum;
 }
 
+module.exports = sumOfMatrixElements;

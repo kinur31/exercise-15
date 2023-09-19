@@ -15,3 +15,5 @@ function getMinimumDate(dateArray) {
 }
 
 // Example array of dates
+
+module.exports = getMinimumDate;

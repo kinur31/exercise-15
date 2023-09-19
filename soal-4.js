@@ -7,10 +7,10 @@ const commonChar = (text) => {
     let most = "";
     let maxCount = 0;
     
-    for (const common in char) {
-        if (temp[char] > maxCount) {
-            most = char;
-            maxCount = temp[char];
+    for (const common in temp) {
+        if (temp[common] > maxCount) {
+            most = common;
+            maxCount = temp[common];
         }
     }
 

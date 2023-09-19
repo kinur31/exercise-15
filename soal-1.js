@@ -1,5 +1,4 @@
 const getDay = (date) => {
-    // console.log(tanggal);
     let getDay = tanggal.getDay();
     console.log(getDay);
     if (getDay === 0 || getDay === 1) {

@@ -79,13 +79,4 @@ console.log(hariBerlalu())
 //soal 12
 const tanggalLahir = "2000-1-1"
 const result12 = calculateAge(tanggalLahir)
-<<<<<<< Updated upstream
 console.log(result12)
-=======
-console.log(result12)
-
-const getDay = require("./soal-1");
-
-const tanggal = new Date("2023-09-17");
-console.log(getDay(tanggal));
->>>>>>> Stashed changes

@@ -1,5 +1,5 @@
 const getDay = (date) => {
-    let getDay = tanggal.getDay();
+    let getDay = date.getDay();
     console.log(getDay);
     if (getDay === 0 || getDay === 1) {
         return `${date} merupakan Weekend`;
@@ -8,5 +8,4 @@ const getDay = (date) => {
     }
 }
 
-const tanggal = new Date("2023-09-10");
-console.log(getDay(tanggal));
+module.exports = getDay;

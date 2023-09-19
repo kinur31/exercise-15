@@ -23,7 +23,4 @@ function sorted(str){
     return sort    
 }
 
-let alphabet = "qwertyuiopasdfghjklzxcvbnm"
-console.log(sorted(alphabet));
-
 module.exports = {sort, sorted}

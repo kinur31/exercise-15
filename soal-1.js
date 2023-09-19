@@ -1,5 +1,5 @@
 const getDay = (date) => {
-    let getDay = date.getDay();
+    let getDay = new Date(date).getDay();
     console.log(getDay);
     if (getDay === 0 || getDay === 1) {
         return `${date} merupakan Weekend`;

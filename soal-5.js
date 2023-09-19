@@ -2,9 +2,9 @@
 
 function sort(arr) {
     arr = arr.split("");
-    for (i = 0; i < arr.length; i++) {
-        for (j = 0; j < arr.length; j++) {
-            if (arr[j] > arr[i]) {
+    for (let i = 0; i < arr.length; i++) {
+        for (let j = 0; j < arr.length -1; j++) {
+            if (arr[j] > arr[j+1]) {
                 [arr[j], arr[j+1]] = [arr[j+1], arr[j]]
             }
         }
@@ -17,11 +17,13 @@ console.log(sort(alpha));
 
 // with sort
 
-function sort(str){
+function sorted(str){
     let value = str.split('')
     let sort = value.sort().join('')
     return sort    
 }
 
 let alphabet = "qwertyuiopasdfghjklzxcvbnm"
-console.log(sort(alphabet));
+console.log(sorted(alphabet));
+
+module.exports = {sort, sorted}

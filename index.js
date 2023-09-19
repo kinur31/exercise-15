@@ -3,8 +3,8 @@ const getDay = require("./soal-1");
 
 const wetherDate1 = "2023-09-17";
 const wetherDate2 = "2023-09-19";
-console.log(wetherDate1);
-console.log(wetherDate2);
+console.log(getDay(wetherDate1));
+console.log(getDay(wetherDate2));
 
 //soal 2
 const gcd = require("./soal-2");
